@@ -1,0 +1,32 @@
+Added Component: Designator=D13(WL-SICW_0805_L2W1.3H0.8)
+Add component (AddParameter): Name = "Case/Size Code"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Infrared LEDs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centroid Wavelength"; Value = "850nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Chip Technology"; Value = "AlGaAs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/15412085BA400?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/15412085BA400?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting Color"; Value = "Infrared"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "1.4V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage Max"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "15412085BA400"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WL-SICW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peak Wavelength"; Value = "850nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiant Intensity"; Value = "2.5mW/sr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiant Intensity Min"; Value = "1mW/sr"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "140°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.6mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D13-1
+Added Pin To Net: NetName=NetD13_2 Pin=D13-2
+Change Class Name : Old Net Name=Sheet1 New Net Name=input
+Change Class Name : Old Net Name=Sheet2 New Net Name=output
+Change Class Name : Old Net Name=Sheet3 New Net Name=control
+Added Member To Class: ClassName=input Member=Component D13 Infrared, 1.4V, 140°
