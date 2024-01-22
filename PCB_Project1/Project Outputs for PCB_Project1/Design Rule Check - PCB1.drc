@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\github\Altium_designer\PCB_Project1\PCB1.PcbDoc
 Date     : 1/22/2024
-Time     : 3:03:23 AM
+Time     : 12:23:20 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -9,7 +9,7 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=10mil) (InNamedPolygon('NONET_L01_P032')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=10mil) (InNamedPolygon('NONET_L02_P034')),(All)
+Processing Rule : Clearance Constraint (Gap=10mil) (InNamedPolygon('NONET_L02_P034')),(InNet('No Net') And OnLayer('Top Layer'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -20,39 +20,7 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Polygon  (NONET_L01_P044) on Top Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Polygon  (NONET_L02_P034) on Bottom Layer Dead Copper - Net Not Assigned.
    Violation between Un-Routed Net Constraint: Polygon  (NONET_L02_P039) on Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (101.215mil,3757.166mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (126.859mil,3692.842mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (126.859mil,3821.908mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (157.951mil,249.828mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (158.793mil,62.744mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (192.023mil,3850.498mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (192.865mil,3663.414mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (224.611mil,90.578mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (224.737mil,222.988mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (252.287mil,156.566mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (258.683mil,3691.248mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (258.809mil,3823.658mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (286.359mil,3757.236mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3483.101mil,157.446mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3485.079mil,3761.222mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3508.745mil,222.188mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3508.745mil,93.122mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3510.725mil,3696.9mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3510.725mil,3825.966mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3573.909mil,250.778mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3574.751mil,63.694mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3575.889mil,3854.554mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3576.729mil,3667.444mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3640.569mil,91.528mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3640.695mil,223.938mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3642.547mil,3695.306mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3642.675mil,3827.714mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3668.245mil,157.516mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (3670.225mil,3761.294mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (67.143mil,156.496mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (92.787mil,221.238mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (92.787mil,92.172mil) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
-Rule Violations :36
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -70,39 +38,7 @@ Processing Rule : Hole Size Constraint (Min=11.811mil) (Max=137.795mil) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (8.495mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (157.951mil,249.828mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (9.3mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (158.793mil,62.744mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.707mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (224.611mil,90.578mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.927mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (224.737mil,222.988mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.938mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (252.287mil,156.566mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (6.915mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (67.143mil,156.496mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.611mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (92.787mil,221.238mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.59mil < 10mil) Between Pad Free-4(158.703mil,156.69mil) on Multi-Layer And Via (92.787mil,92.172mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (6.915mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (101.215mil,3757.166mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.59mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (126.859mil,3692.842mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.611mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (126.859mil,3821.908mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.495mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (192.023mil,3850.498mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (9.3mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (192.865mil,3663.414mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.707mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (258.683mil,3691.248mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.927mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (258.809mil,3823.658mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.938mil < 10mil) Between Pad Free-4(192.775mil,3757.36mil) on Multi-Layer And Via (286.359mil,3757.236mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (6.915mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3483.101mil,157.446mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.611mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3508.745mil,222.188mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.59mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3508.745mil,93.122mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.495mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3573.909mil,250.778mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (9.3mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3574.751mil,63.694mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.707mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3640.569mil,91.528mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.927mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3640.695mil,223.938mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.938mil < 10mil) Between Pad Free-4(3574.661mil,157.64mil) on Multi-Layer And Via (3668.245mil,157.516mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (6.915mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3485.079mil,3761.222mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.589mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3510.725mil,3696.9mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (7.61mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3510.725mil,3825.966mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.493mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3575.889mil,3854.554mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (9.328mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3576.729mil,3667.444mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.707mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3642.547mil,3695.306mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.927mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3642.675mil,3827.714mil) from Top Layer to Bottom Layer 
-   Violation between Hole To Hole Clearance Constraint: (8.94mil < 10mil) Between Pad Free-4(3576.639mil,3761.418mil) on Multi-Layer And Via (3670.225mil,3761.294mil) from Top Layer to Bottom Layer 
-Rule Violations :32
+Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
 Rule Violations :0
@@ -110,16 +46,8 @@ Rule Violations :0
 Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Arc (17.656mil,1840.526mil) on Top Overlay And Text "ICSP" (30.583mil,1779.296mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Arc (1830.278mil,3214.638mil) on Top Overlay And Text "J15" (1926.606mil,3227.844mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Arc (338.979mil,760.231mil) on Top Overlay And Text "INPUT 220VAC" (7.853mil,726.042mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Text "7" (860.664mil,3687.591mil) on Top Overlay And Track (736.535mil,3670.936mil)(1108.573mil,3670.936mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Text "A1" (1662.744mil,3691.106mil) on Top Overlay And Track (1351.555mil,3670.936mil)(1696.148mil,3670.936mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Text "A4" (1422.482mil,3687.581mil) on Top Overlay And Track (1351.555mil,3670.936mil)(1696.148mil,3670.936mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Text "A5" (1111.534mil,3692.207mil) on Top Overlay And Track (736.535mil,3670.936mil)(1108.573mil,3670.936mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 1mil) Between Text "C9" (1223.431mil,1898.092mil) on Bottom Overlay And Track (1257.689mil,1830.478mil)(1257.689mil,1984.02mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
-Rule Violations :8
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -128,6 +56,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 76
+Violations Detected : 4
 Waived Violations : 0
 Time Elapsed        : 00:00:01
